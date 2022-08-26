@@ -1,0 +1,96 @@
+body {
+    background: #010101;
+}
+
+#nav-right-anchor {
+    color: #9b9d9e;
+    text-decoration: none;
+}
+
+#nav-right-anchor:hover {
+    color: #c7c8c9;
+}
+
+#login-signup {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#prof-active{
+    color:white
+}
+
+#container1 {
+    display: grid;
+    height: 70vh;
+    align-items: center;
+}
+
+#container2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.card {
+    position: relative;
+    width: 600px;
+    height: 350px;
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: linear-gradient(45deg, #1a2f3f, #7094ce);
+    /* padding: 0; */
+}
+
+.card img {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 400px;
+    transition: 0.5s;
+}
+
+.card:hover img {
+    left: 85%;
+    height: 500px;
+}
+
+.card .content {
+    position: relative;
+    width: 52%;
+    left: 0%;
+    padding: 20px 20px 20px 40px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card:hover .content {
+    opacity: 1;
+    visibility: visible;
+    margin-left: -300px;
+}
+
+.card .content h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 2.2em;
+    line-height: 1em;
+}
+
+.card .content p{
+    margin-top: 30px;
+    color:rgba(255, 255, 255, 0.658);
+}
+
+.card a{
+    color: #bac3cd;
+    text-decoration: none;
+}

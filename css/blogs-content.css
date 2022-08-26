@@ -1,0 +1,30 @@
+h1,h5 {
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.container-fluid p{
+    font-size: 20px;
+    color: rgb(160, 156, 156);
+}
+
+.container-fluid p::first-letter{
+    font-size: 30px;
+    color: rgb(221, 6, 6);
+}
+
+ol li{
+    font-size: 18px;
+    color: rgb(160, 156, 156);
+}
+
+ol li::first-line{
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(206, 188, 188);
+}
+
+h5{
+    margin-top:-20px;
+    color: rgb(28, 39, 196);
+}
