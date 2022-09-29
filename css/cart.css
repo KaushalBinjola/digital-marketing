@@ -11,8 +11,8 @@ body {
     color: #c7c8c9;
 }
 
-#login-signup{
-    color:#ffffff;
+#login-signup {
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -24,8 +24,8 @@ body {
     text-align: center;
 }
 
-h3 {
-    color:white;
+h1 {
+    color: white;
     font-size: 35px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -44,6 +44,6 @@ img {
     height: 220px;
 }
 
-.qty{
+.qty {
     color: black;
 }
